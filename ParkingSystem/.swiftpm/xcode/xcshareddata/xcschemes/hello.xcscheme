@@ -61,7 +61,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/milenamaiaaraujo/Desktop/vaporInitialTest/hello"
+      customWorkingDirectory = "/Users/milenamaiaaraujo/Desktop/vaporInitialTest/ParkingWithVapor/ParkingSystem"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"

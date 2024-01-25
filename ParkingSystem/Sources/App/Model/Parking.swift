@@ -9,13 +9,17 @@ import Foundation
 import Vapor
 
 struct Parking: Content {
-    let itsFull: Bool
+    var isFull: Bool
     let id: String
-    let cars: [Car]
+    var cars: [Car]
     
     
-    func itsFull(quantityOfCars: Int) -> Bool {
-        return quantityOfCars > 2
-        
+    mutating func updateParkingStatus() {
+        if cars.count > 19 {
+            print("ITS FULL. THE QUANTITY OF CARS IS \(self.cars.count)!")
+            self.isFull = true
+        } else {
+            self.isFull = false
+        }
     }
 }
